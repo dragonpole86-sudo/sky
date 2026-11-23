@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+        content="Contact SkyNest Co-Living Spaces in Singapore to enquire about accommodation packages, facilities, corporate bookings, or accessibility requirements.">
+
+  <title>SkyNest Co-Living Spaces | Contact Us</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #362e1e;
+      background-color: #fdfbf2;
+    }
+
+    .container {
+      width: calc(100% - 2rem);
+      max-width: 1010px;
+      margin: 0 auto;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: 0;
+      left: 1rem;
+      transform: translateY(-150%);
+      padding: 0.6rem 1rem;
+      color: #3d3115;
+      background-color: #ffffff;
+    }
+
+    .skip-link:focus {
+      transform: translateY(0.5rem);
+    }
+
+    .site-header,
+    .site-footer {
+      color: #3d3115;
+      background-color: #f3e5ab;
+      text-align: center;
+    }
+
+    .site-header {
+      padding: 0.65rem 0 1.45rem;
+      border-bottom: 2px solid #d4bc6a;
+    }
+
+    .site-name {
+      margin: 0 0 0.4rem;
+      font-size: 1.75rem;
+      font-weight: bold;
+      color: #2c220c;
+    }
+
+    .tagline {
+      margin: 0;
+      font-size: 0.95rem;
+      color: #544522;
+    }
+
+    .main-nav {
+      background-color: #e8d48b;
+      border-bottom: 1px solid #d4bc6a;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.3rem 0.5rem;
+      margin: 0;
+      padding: 0.65rem 0;
+      list-style: none;
+    }
+
+    .nav-links a {
+      display: block;
+      padding: 0.6rem 0.85rem;
+      border-radius: 5px;
+      color: #2c220c;
+      font-size: 0.95rem;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .nav-links a:hover,
+    .nav-links a[aria-current="page"] {
+      color: #fdfbf2;
+      background-color: #5c4818;
+    }
+
+    :focus-visible {
+      outline: 3px solid #9e7614;
+      outline-offset: 3px;
+    }
+
+    .intro {
+      padding: 2.75rem 0;
+      background-color: #f9f1cf;
+    }
+
+    h1,
+    h2 {
+      margin: 0 0 0.65rem;
+      color: #2c220c;
+      line-height: 1.2;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+    }
+
+    .intro p {
+      margin: 0;
+      max-width: 65ch;
+    }
+
+    .contact-content {
+      padding: 2.5rem 0;
+    }
+
+    .form-card {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: clamp(1rem, 4vw, 2rem);
+      border: 1px solid #e6d598;
+      border-top: 4px solid #d4bc6a;
+      border-radius: 10px;
+      background-color: #ffffff;
+    }
+
+    .form-note {
+      margin: 0 0 1.25rem;
+    }
+
+    .form-field {
+      margin-bottom: 1rem;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.35rem;
+      font-weight: bold;
+      color: #2c220c;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 0.65rem 0.75rem;
+      border: 1px solid #b59d4c;
+      border-radius: 5px;
+      color: #362e1e;
+      background-color: #ffffff;
+      font: inherit;
+    }
+
+    textarea {
+      min-height: 8rem;
+      resize: vertical;
+    }
+
+    .form-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    button {
+      padding: 0.65rem 1.2rem;
+      border: 1px solid #6e5415;
+      border-radius: 5px;
+      font: inherit;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .submit-button {
+      color: #ffffff;
+      background-color: #6e5415;
+    }
+
+    .submit-button:hover {
+      background-color: #4f3b0d;
+    }
+
+    .reset-button {
+      color: #2c220c;
+      background-color: #ffffff;
+    }
+
+    .reset-button:hover {
+      background-color: #f9f1cf;
+    }
+
+    .form-status {
+      margin: 0;
+    }
+
+    .form-status:not(:empty) {
+      margin-top: 1rem;
+      padding: 0.85rem 1rem;
+      border-left: 4px solid #8a691b;
+      color: #2c220c;
+      background-color: #f9f1cf;
+      overflow-wrap: anywhere;
+    }
+
+    .site-footer {
+      padding: 1.25rem 0;
+      font-size: 0.9rem;
+      border-top: 2px solid #d4bc6a;
+    }
+
+    .site-footer p {
+      margin: 0;
+      color: #3d3115;
+    }
+
+    @media (max-width: 640px) {
+      .intro {
+        padding: 2rem 0;
+      }
+
+      .nav-links a {
+        padding: 0.5rem 0.65rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <p class="site-name">SkyNest Co-Living Spaces</p>
+      <p class="tagline">Flexible living, remote working, and community in Singapore</p>
+    </div>
+  </header>
+
+  <nav class="main-nav" aria-label="Main navigation">
+    <div class="container">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="packages.html">Packages &amp; Advice</a></li>
+        <li><a href="guide.html">Resident Guide</a></li>
+        <li><a href="contact.html" aria-current="page">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <section class="intro">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p>
+          Have a question about our packages, facilities, corporate bookings,
+          or accessibility requirements? Get in touch with our Singapore team below.
+        </p>
+      </div>
+    </section>
+
+    <div class="container contact-content">
+      <section class="form-card" aria-labelledby="form-heading">
+        <h2 id="form-heading">Make an enquiry</h2>
+        <p id="form-note" class="form-note">
+          All fields are required. Use this form to request further information,
+          package advice, or to arrange a custom stay.
+        </p>
+
+        <form id="contact-form" aria-describedby="form-note">
+          <div class="form-field">
+            <label for="full-name">Full name</label>
+            <input type="text" id="full-name" name="fullName"
+                   autocomplete="name" maxlength="100" required>
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email"
+                   autocomplete="email" maxlength="254" required>
+          </div>
+
+          <div class="form-field">
+            <label for="package-interest">Package or enquiry type</label>
+            <select id="package-interest" name="packageInterest" required>
+              <option value="" disabled selected>Select an option</option>
+              <option value="Premium Stay">Premium Stay (Private Studio)</option>
+              <option value="Standard Stay">Standard Stay (Shared Apartment)</option>
+              <option value="Short-Term Stay">Short-Term Stay (1–4 Weeks)</option>
+              <option value="Custom Package">Custom Package (Corporate, Long-Term, or Accessibility Needs)</option>
+              <option value="General Advice">General Information &amp; Package Advice</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="message">Your message (include preferred dates or accessibility needs)</label>
+            <textarea id="message" name="message" rows="5"
+                      maxlength="2000" required></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button class="submit-button" type="submit" disabled>Submit</button>
+            <button class="reset-button" type="reset">Reset</button>
+          </div>
+        </form>
+
+        <p id="form-status" class="form-status" role="status"></p>
+        <noscript><p>Enable JavaScript to use the interactive enquiry form.</p></noscript>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><strong>SkyNest Co-Living Spaces</strong> | Singapore</p>
+    </div>
+  </footer>
+
+  <script>
+    const form = document.getElementById("contact-form");
+    const nameField = document.getElementById("full-name");
+    const packageField = document.getElementById("package-interest");
+    const messageField = document.getElementById("message");
+    const status = document.getElementById
